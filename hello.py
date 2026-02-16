@@ -1,7 +1,9 @@
 
 
 def sayHello():
-  print(f'Hello')
+    return "hello"
 
-sayHello()
+
+if __name__ == "__main__":
+    print(sayHello())
 
